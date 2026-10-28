@@ -19,3 +19,8 @@ verifyDepsBeforeRun: false
 optimisticRepeatInstall: false
 overrides:
   miniflare>sharp: 0.35.4
+
+# Explicitly pinned, compatibility-tested foundation dependencies.
+minimumReleaseAgeExclude:
+  - convex@1.48.0
+  - convex-test@0.0.66

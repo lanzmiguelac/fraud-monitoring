@@ -15,7 +15,9 @@
     "dev:sites": "node scripts/run-framework.mjs dev",
     "build:sites": "node scripts/run-framework.mjs build",
     "start:sites": "node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js dev --config dist/server/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --inspector-port 0",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:foundation": "vitest run --config vitest.foundation.config.ts",
+    "typecheck:convex": "tsc -p convex/tsconfig.json --noEmit"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
@@ -41,7 +43,8 @@
     "sonner": "^2.0.8",
     "tailwind-merge": "3.6.0",
     "vaul": "^1.1.2",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "convex": "1.48.0"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",
@@ -63,7 +66,9 @@
     "typescript": "5.9.3",
     "vinext": "1.0.0-beta.5",
     "vite": "8.0.13",
-    "wrangler": "4.92.0"
+    "wrangler": "4.92.0",
+    "vitest": "5.0.5",
+    "convex-test": "0.0.66"
   },
   "type": "module",
   "overrides": {

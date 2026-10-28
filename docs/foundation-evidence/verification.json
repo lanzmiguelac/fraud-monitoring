@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-28",
+  "target": "clean-heron-346",
+  "type": "Development (Cloud)",
+  "head": "87049e0918a5ed1e56d6b7140bdf75a5fdb0c049",
+  "mockTests": 79,
+  "mockSuites": 10,
+  "cloudConcurrencyTested": false,
+  "foundationEmpty": true,
+  "workspaceConfigPresent": false,
+  "compatibilityFunctionsUnchanged": true,
+  "compatibilitySchemaUnchanged": true,
+  "compatibilityOriginalSyntheticRecordRetained": true,
+  "directComplaintsMetadataUnchanged": true,
+  "preserved": {
+    "app/page.tsx": {
+      "sha256": "0f51499ffe1d998e7349de6625bb57f296134029749126ee931138538841d04d",
+      "unchanged": true
+    },
+    "app/layout.tsx": {
+      "sha256": "c27b51bd2917dc8d94b9a645c0af97d809d3fe0e095515f8cf25f606cbfb627f",
+      "unchanged": true
+    },
+    "app/globals.css": {
+      "sha256": "f6f606a33167f4d34c3bc47c07b32af58ffe8c7e04176df17c8733c22e677fc4",
+      "unchanged": true
+    },
+    "package-lock.json": {
+      "sha256": "9b714f218d5828bf846385ebf401223fa5cb368f0c3c95f40136d05e0dd0b3b4",
+      "unchanged": true
+    },
+    "docs/superpowers/plans/2026-10-28-backend-foundation.md": {
+      "sha256": "1cca282e8b8725ed55901b536693783487e9be151311b5390a076f9421a715a6",
+      "unchanged": true
+    }
+  },
+  "indexSummary": {
+    "auditEvents": [
+      {
+        "name": "by_case",
+        "fields": [
+          "caseId"
+        ]
+      },
+      {
+        "name": "by_operation",
+        "fields": [
+          "operationId"
+        ]
+      }
+    ],
+    "cases": [
+      {
+        "name": "by_reference",
+        "fields": [
+          "reference"
+        ]
+      },
+      {
+        "name": "by_team",
+        "fields": [
+          "teamId"
+        ]
+      }
+    ],
+    "compat_smoke_records": [
+      {
+        "name": "by_runId",
+        "fields": [
+          "runId"
+        ]
+      }
+    ],
+    "idempotencyRequests": [
+      {
+        "name": "by_scope",
+        "fields": [
+          "workspaceId",
+          "actorId",
+          "key"
+        ]
+      }
+    ],
+    "monitoringRecords": [
+      {
+        "name": "by_case",
+        "fields": [
+          "caseId"
+        ]
+      },
+      {
+        "name": "by_team_module",
+        "fields": [
+          "teamId",
+          "moduleKey"
+        ]
+      }
+    ],
+    "referenceCounters": [
+      {
+        "name": "by_workspace_date",
+        "fields": [
+          "workspaceId",
+          "date"
+        ]
+      }
+    ],
+    "referenceLedger": [
+      {
+        "name": "by_case",
+        "fields": [
+          "caseId"
+        ]
+      },
+      {
+        "name": "by_reference",
+        "fields": [
+          "reference"
+        ]
+      }
+    ],
+    "roleAssignments": [
+      {
+        "name": "by_team",
+        "fields": [
+          "teamId"
+        ]
+      },
+      {
+        "name": "by_user_team",
+        "fields": [
+          "userId",
+          "teamId"
+        ]
+      }
+    ],
+    "teams": [
+      {
+        "name": "by_workspace_key",
+        "fields": [
+          "workspaceId",
+          "key"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "name": "by_identity",
+        "fields": [
+          "issuer",
+          "subject"
+        ]
+      }
+    ],
+    "workspaces": [
+      {
+        "name": "by_key",
+        "fields": [
+          "key"
+        ]
+      }
+    ]
+  },
+  "generatedFiles": [
+    "convex/_generated/api.d.ts",
+    "convex/_generated/api.js",
+    "convex/_generated/dataModel.d.ts",
+    "convex/_generated/server.d.ts",
+    "convex/_generated/server.js"
+  ]
+}
