@@ -43,3 +43,33 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Credentials and local secrets
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+/secrets/
+/credentials/
+
+# Local databases and sidecar files (retain schema and migrations)
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local caches, build output, logs, and packaged artifacts
+/build/
+/.cache/
+/.turbo/
+/.vercel/
+/playwright-report/
+/test-results/
+*.log
+*.tar
+*.tar.gz
+*.tgz
+*.zip
